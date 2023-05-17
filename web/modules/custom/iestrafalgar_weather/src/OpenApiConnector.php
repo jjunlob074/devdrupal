@@ -2,9 +2,10 @@
 
 namespace Drupal\iestrafalgar_weather;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
+use Drupal\iestrafalgar_weather\Model\WeatherInfo;
 use GuzzleHttp\Client;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use WeatherInfo;
+
 
 /**
  * Provides a weather from the API
@@ -31,7 +32,6 @@ class OpenApiConnector implements ContainerInjectionInterface{
     $weather = new WeatherInfo(
        $weatherData['current_weather']['temperature'],$weatherData['current_weather']['windspeed']
      );
-
 
     return $weather;
   }
