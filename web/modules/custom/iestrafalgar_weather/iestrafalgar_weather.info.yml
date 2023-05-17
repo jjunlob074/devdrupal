@@ -1,0 +1,5 @@
+name: 'iestrafalgar_weather'
+type: module
+description: 'Provides a API for watch the weather in a custom block'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom

@@ -1,0 +1,5 @@
+services:
+  iestrafalgar_weather.openapi_connector:
+    class: Drupal\iestrafalgar_weather\OpenApiConnector
+    arguments:
+      - '@http_client'

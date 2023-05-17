@@ -1,0 +1,8 @@
+uuid: 43239b86-aa88-4959-b316-a69decc85bee
+langcode: es
+status: true
+dependencies: {  }
+id: creando_un_bloque_personalizado
+label: 'creando un bloque personalizado'
+revision: 0
+description: 'probando, probando...'

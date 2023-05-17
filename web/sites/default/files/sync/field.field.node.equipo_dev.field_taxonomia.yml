@@ -1,0 +1,29 @@
+uuid: c7317c2f-6c1c-430e-8bb6-a21dcdbead41
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia
+    - node.type.equipo_dev
+    - taxonomy.vocabulary.equipo
+id: node.equipo_dev.field_taxonomia
+field_name: field_taxonomia
+entity_type: node
+bundle: equipo_dev
+label: taxonomia
+description: 'esto facilita que nos encuentres...'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      equipo: equipo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: cf1e2917-fc5a-4192-acc8-c45475516f40
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__como_anda_la_cosa_
+    - node.type.equipo_dev
+id: node.equipo_dev.field__como_anda_la_cosa_
+field_name: field__como_anda_la_cosa_
+entity_type: node
+bundle: equipo_dev
+label: '¿como anda la cosa?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

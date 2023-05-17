@@ -1,0 +1,11 @@
+uuid: bbeb769f-6eb2-4c47-97c0-9c7e4cbb9d97
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.equipo
+id: taxonomy_term.equipo
+target_entity_type_id: taxonomy_term
+target_bundle: equipo
+default_langcode: site_default
+language_alterable: false

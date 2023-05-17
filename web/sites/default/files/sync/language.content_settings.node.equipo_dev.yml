@@ -1,0 +1,11 @@
+uuid: cbb15a54-2215-4d51-ae21-d5ad357edd69
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.equipo_dev
+id: node.equipo_dev
+target_entity_type_id: node
+target_bundle: equipo_dev
+default_langcode: site_default
+language_alterable: false

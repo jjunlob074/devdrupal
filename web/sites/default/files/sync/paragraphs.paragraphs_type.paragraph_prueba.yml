@@ -1,0 +1,10 @@
+uuid: 4bd531d7-d4e2-4288-91a6-27d057999cb5
+langcode: es
+status: true
+dependencies: {  }
+id: paragraph_prueba
+label: paragraph_prueba
+icon_uuid: null
+icon_default: null
+description: 'probando layout builder con paragraphs'
+behavior_plugins: {  }

@@ -1,0 +1,32 @@
+uuid: 2214dd5b-58ef-46a0-bfb0-e7063f232486
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term._como_va_la_manana_.field__como_anda_la_cosa_
+    - taxonomy.vocabulary._como_va_la_manana_
+  module:
+    - text
+id: taxonomy_term._como_va_la_manana_.default
+targetEntityType: taxonomy_term
+bundle: _como_va_la_manana_
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field__como_anda_la_cosa_:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

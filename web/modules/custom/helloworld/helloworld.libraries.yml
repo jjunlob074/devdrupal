@@ -1,0 +1,8 @@
+helloworld:
+  css:
+    theme:
+      css/block.css: {}
+  js:
+    js/custom.js: { }
+  dependencies:
+    - core/jquery

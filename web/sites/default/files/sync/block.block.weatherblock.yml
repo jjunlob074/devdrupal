@@ -1,0 +1,20 @@
+uuid: 9dc4d4fa-2ce0-4c74-80bf-bc69d732a943
+langcode: es
+status: true
+dependencies:
+  module:
+    - iestrafalgar_weather
+  theme:
+    - bartik_child
+id: weatherblock
+theme: bartik_child
+region: sidebar_first
+weight: 0
+provider: null
+plugin: iestrafalgar_weather_block
+settings:
+  id: iestrafalgar_weather_block
+  label: 'Weather Block'
+  label_display: visible
+  provider: iestrafalgar_weather
+visibility: {  }

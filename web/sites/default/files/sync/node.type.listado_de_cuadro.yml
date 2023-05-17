@@ -1,0 +1,18 @@
+uuid: f12adeb2-00a9-46ec-83c8-1b836ca9852b
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'OBRAS DEL MUSEO'
+type: listado_de_cuadro
+description: 'con esto se muestran las obras alojadas en el museo.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,11 @@
+uuid: f2a787b3-6c4f-4942-a40a-af1661bd39ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary._como_va_la_manana_
+id: taxonomy_term._como_va_la_manana_
+target_entity_type_id: taxonomy_term
+target_bundle: _como_va_la_manana_
+default_langcode: site_default
+language_alterable: false

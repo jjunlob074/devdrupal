@@ -1,0 +1,27 @@
+uuid: 09c7217e-bf52-4315-a1f9-32a7596dd048
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.listado_de_cuadro
+  module:
+    - text
+id: node.listado_de_cuadro.body
+field_name: body
+entity_type: node
+bundle: listado_de_cuadro
+label: 'CURIOSIDADES DE LA OBRA'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'CURIOSIDADES DE LA OBRA'
+    summary: ''
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

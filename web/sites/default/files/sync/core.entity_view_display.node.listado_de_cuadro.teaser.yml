@@ -1,0 +1,53 @@
+uuid: eec97ec1-959a-4440-9340-d6fc319bcace
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.listado_de_cuadro.body
+    - field.field.node.listado_de_cuadro.field_autor
+    - field.field.node.listado_de_cuadro.field_obra
+    - field.field.node.listado_de_cuadro.field_paragraph_prueba1
+    - field.field.node.listado_de_cuadro.layout_builder__layout
+    - image.style.media_library
+    - node.type.listado_de_cuadro
+  module:
+    - image
+    - text
+    - user
+id: node.listado_de_cuadro.teaser
+targetEntityType: node
+bundle: listado_de_cuadro
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_autor:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_obra:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: media_library
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_paragraph_prueba1: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

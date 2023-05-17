@@ -1,0 +1,18 @@
+uuid: 6016781a-bf93-4338-99df-4380ff3efd5f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.listado_de_cuadro
+id: node.listado_de_cuadro.title
+field_name: title
+entity_type: node
+bundle: listado_de_cuadro
+label: CUADROS
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

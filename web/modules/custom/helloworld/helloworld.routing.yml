@@ -1,0 +1,23 @@
+helloworld.default_controller_hello:
+  path: '/hello/world'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\DefaultController::hello'
+    _title: 'Hello World!'
+  requirements:
+    _permission: 'access content'
+
+helloworld.salutation:
+  path: '/hello/world/salutation'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\SalutationController::salutation'
+    _title: 'Hello World salutation!'
+  requirements:
+    _permission: 'access content'
+helloworld.menu:
+  path: '/helloworld-menu'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\DefaultController::menu'
+    _title: 'Hello World Menu'
+  requirements:
+    _permission: 'access content'
+

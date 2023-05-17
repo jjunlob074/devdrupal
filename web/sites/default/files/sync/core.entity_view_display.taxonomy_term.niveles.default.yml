@@ -1,0 +1,22 @@
+uuid: 918d370b-1a9c-4df7-942e-ed2f4502432f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.niveles
+  module:
+    - text
+id: taxonomy_term.niveles.default
+targetEntityType: taxonomy_term
+bundle: niveles
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

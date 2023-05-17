@@ -1,0 +1,75 @@
+uuid: 9446ecd9-2ccb-4f87-8695-5713ac5446f6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.equipo_dev.body
+    - field.field.node.equipo_dev.field__como_anda_la_cosa_
+    - field.field.node.equipo_dev.field_biko2_div
+    - field.field.node.equipo_dev.field_image
+    - field.field.node.equipo_dev.field_taxonomia
+    - image.style.medium
+    - node.type.equipo_dev
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.equipo_dev.default
+targetEntityType: node
+bundle: equipo_dev
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field__como_anda_la_cosa_:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_biko2_div:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_taxonomia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

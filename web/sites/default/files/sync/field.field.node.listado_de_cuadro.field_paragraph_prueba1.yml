@@ -1,0 +1,31 @@
+uuid: f4848cc8-a06b-4cf1-a8b0-5e831613a351
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_prueba1
+    - node.type.listado_de_cuadro
+    - paragraphs.paragraphs_type.paragraph_prueba
+  module:
+    - entity_reference_revisions
+id: node.listado_de_cuadro.field_paragraph_prueba1
+field_name: field_paragraph_prueba1
+entity_type: node
+bundle: listado_de_cuadro
+label: paragraph_prueba1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraph_prueba: paragraph_prueba
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_prueba:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

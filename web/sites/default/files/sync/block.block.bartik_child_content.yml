@@ -1,0 +1,22 @@
+uuid: 52e732d7-9888-4a04-937e-f854e24adde3
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik_child
+_core:
+  default_config_hash: 7W5m1cGZjEB4_o0Di0lrmtWuUx1Wft0TuAVyUSgPUwQ
+id: bartik_child_content
+theme: bartik_child
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

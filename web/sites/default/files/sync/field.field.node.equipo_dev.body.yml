@@ -1,0 +1,23 @@
+uuid: 48334750-e98b-45ee-99ee-03f1b977b6bf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.equipo_dev
+  module:
+    - text
+id: node.equipo_dev.body
+field_name: body
+entity_type: node
+bundle: equipo_dev
+label: 'equipo dev description'
+description: 'Somos un equipo de desarrollo de biko2'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

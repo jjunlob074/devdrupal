@@ -1,0 +1,100 @@
+uuid: a9c5da74-45f2-4963-86e2-992e7539abe7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.listado_de_cuadro.body
+    - field.field.node.listado_de_cuadro.field_autor
+    - field.field.node.listado_de_cuadro.field_obra
+    - field.field.node.listado_de_cuadro.field_paragraph_prueba1
+    - field.field.node.listado_de_cuadro.layout_builder__layout
+    - image.style.thumbnail
+    - node.type.listado_de_cuadro
+  module:
+    - image
+    - paragraphs
+    - path
+    - text
+id: node.listado_de_cuadro.default
+targetEntityType: node
+bundle: listado_de_cuadro
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_autor:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_obra:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_paragraph_prueba1:
+    type: paragraphs
+    weight: 26
+    region: content
+    settings:
+      title: Párrafo
+      title_plural: Parráfos
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  layout_builder__layout: true
+  status: true
+  uid: true

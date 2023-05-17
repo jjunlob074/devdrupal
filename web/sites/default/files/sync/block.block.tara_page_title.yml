@@ -1,0 +1,20 @@
+uuid: 789c8782-f495-49d9-8bd1-5dd68767b450
+langcode: es
+status: true
+dependencies:
+  theme:
+    - tara
+_core:
+  default_config_hash: Jg8sbWAHmaNnulBIV3mIX9nhLlnTmVey6atMumOhqtU
+id: tara_page_title
+theme: tara
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

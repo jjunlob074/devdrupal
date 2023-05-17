@@ -1,0 +1,17 @@
+services:
+
+ helloworld.salutation:
+   class: Drupal\helloworld\HelloWorldSalutation
+   arguments:
+     - '@language_manager'
+
+ helloworld.mimenu:
+   class: Drupal\helloworld\menu\Mimenu
+   arguments: ['@menu.link_tree']
+
+ helloworld.event_subscriber:
+   class: Drupal\helloworld\EventSubscriber\HelloWorldEventSubscriber
+   arguments: []
+   tags:
+     - { name: event_subscriber }
+

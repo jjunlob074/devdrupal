@@ -1,0 +1,22 @@
+uuid: 0029521f-3c3b-445c-b9c8-380084239def
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.equipo_dev
+id: node.equipo_dev.promote
+field_name: promote
+entity_type: node
+bundle: equipo_dev
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

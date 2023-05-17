@@ -1,0 +1,21 @@
+uuid: 2809205d-8a8f-4be4-aac2-0f6332083493
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.listado_de_cuadro
+  module:
+    - layout_builder
+id: node.listado_de_cuadro.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: listado_de_cuadro
+label: Diseño
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

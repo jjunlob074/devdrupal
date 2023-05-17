@@ -1,0 +1,18 @@
+uuid: 6e7f6fd2-0165-4890-afcf-573498115be6
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.equipo_dev
+id: node.equipo_dev.title
+field_name: title
+entity_type: node
+bundle: equipo_dev
+label: 'equipo dev'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

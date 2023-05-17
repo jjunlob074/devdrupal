@@ -1,0 +1,44 @@
+uuid: 2f40205f-80b1-480a-a399-822ecf558bf1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_prueba.field_fecha
+    - field.field.paragraph.paragraph_prueba.field_image
+    - field.field.paragraph.paragraph_prueba.field_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.paragraph_prueba
+  module:
+    - datetime
+    - image
+    - text
+id: paragraph.paragraph_prueba.default
+targetEntityType: paragraph
+bundle: paragraph_prueba
+mode: default
+content:
+  field_fecha:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_text:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

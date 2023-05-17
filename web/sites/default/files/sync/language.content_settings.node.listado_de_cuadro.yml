@@ -1,0 +1,11 @@
+uuid: ea025d29-97ce-4e84-8ad1-fee808bd173f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.listado_de_cuadro
+id: node.listado_de_cuadro
+target_entity_type_id: node
+target_bundle: listado_de_cuadro
+default_langcode: site_default
+language_alterable: false

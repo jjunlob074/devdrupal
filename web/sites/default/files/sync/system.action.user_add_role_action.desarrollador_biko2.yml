@@ -1,0 +1,14 @@
+uuid: d66b7508-ead0-4a51-95fc-174499f5b82c
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.desarrollador_biko2
+  module:
+    - user
+id: user_add_role_action.desarrollador_biko2
+label: 'Añade el rol desarrollador biko2 al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: desarrollador_biko2

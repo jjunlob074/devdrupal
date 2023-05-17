@@ -1,0 +1,8 @@
+uuid: 7b95c044-f8f6-4080-8507-b5cd89ebfdba
+langcode: es
+status: true
+dependencies: {  }
+name: '¿como va la mañana?'
+vid: _como_va_la_manana_
+description: ...
+weight: 0

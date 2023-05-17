@@ -1,0 +1,46 @@
+uuid: d88640a3-fc74-484a-a635-1c9c094ed80c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_prueba.field_fecha
+    - field.field.paragraph.paragraph_prueba.field_image
+    - field.field.paragraph.paragraph_prueba.field_text
+    - paragraphs.paragraphs_type.paragraph_prueba
+  module:
+    - datetime
+    - image
+    - text
+id: paragraph.paragraph_prueba.default
+targetEntityType: paragraph
+bundle: paragraph_prueba
+mode: default
+content:
+  field_fecha:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

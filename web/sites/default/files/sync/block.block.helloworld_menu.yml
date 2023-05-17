@@ -1,0 +1,21 @@
+uuid: 0a851ee6-1e98-4571-a6b0-ac46e0e2b319
+langcode: es
+status: true
+dependencies:
+  module:
+    - helloworld
+  theme:
+    - bartik_child
+id: helloworld_menu
+theme: bartik_child
+region: sidebar_first
+weight: 0
+provider: null
+plugin: helloworld_menu
+settings:
+  id: helloworld_menu
+  label: Helloworld_menu
+  label_display: visible
+  provider: helloworld
+  enabled: 1
+visibility: {  }

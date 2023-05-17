@@ -1,0 +1,29 @@
+uuid: eb0bbbf0-7338-4bdd-9590-3c3908968399
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.creando_un_bloque_personalizado
+    - field.storage.block_content.field_probando_
+    - media.type.document
+id: block_content.creando_un_bloque_personalizado.field_probando_
+field_name: field_probando_
+entity_type: block_content
+bundle: creando_un_bloque_personalizado
+label: 'probando '
+description: biko2
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

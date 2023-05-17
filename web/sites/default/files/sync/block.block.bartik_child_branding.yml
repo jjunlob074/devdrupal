@@ -1,0 +1,25 @@
+uuid: f11acb15-cfa4-4e5a-9b29-2d647bc21d09
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik_child
+_core:
+  default_config_hash: L5Isbha2f5lp_ISo3rvGr3kIAEQuKCm1p2KC9-KzSaU
+id: bartik_child_branding
+theme: bartik_child
+region: header
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

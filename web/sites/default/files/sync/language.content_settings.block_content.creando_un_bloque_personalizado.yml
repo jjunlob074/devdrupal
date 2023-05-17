@@ -1,0 +1,11 @@
+uuid: d66b5d9a-de3a-4a62-8d7b-1ef0cc6355ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.creando_un_bloque_personalizado
+id: block_content.creando_un_bloque_personalizado
+target_entity_type_id: block_content
+target_bundle: creando_un_bloque_personalizado
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: 7e77d2d8-7428-49a9-b61e-1f153d22278e
+langcode: es
+status: true
+dependencies:
+  module:
+    - helloworld
+  theme:
+    - bartik_child
+id: helloworldsalutation_2
+theme: bartik_child
+region: secondary_menu
+weight: 0
+provider: null
+plugin: hello_world_salutation_block
+settings:
+  id: hello_world_salutation_block
+  label: 'Hello world salutation'
+  label_display: visible
+  provider: helloworld
+  enabled: 1
+visibility: {  }

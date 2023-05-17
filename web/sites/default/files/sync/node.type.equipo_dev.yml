@@ -1,0 +1,17 @@
+uuid: 9ae95012-6d3b-4efe-a83f-eab03c05944b
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Equipo dev'
+type: equipo_dev
+description: 'Nuestro equipo se encarga del mantenimiento de la web del museo thyssen y la fundación march. Aunque Isma de vez en cuándo ayuda a los lingüistas de la RAE con sus líos :)'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

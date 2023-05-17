@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * @file
+ * Contains helloworld.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function helloworld_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the helloworld module.
+    case 'help.page.helloworld':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Hello World example module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function helloworld_theme() {
+  return [
+    'helloworld_salutation' => [
+      //'render element' => 'content',
+      'variables' => [
+        'salutation'=> NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function helloworld_page_attachments_alter(array &$attachments) {
+  $attachments['#attached']['library'][] = 'helloworld/helloworld';
+}
+
+function helloworld_preprocess_helloworld_salutation(array &$variables) {
+  $variables['nombre'] = 'José Diego';
+}

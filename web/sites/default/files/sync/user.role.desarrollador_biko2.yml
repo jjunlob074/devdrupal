@@ -1,0 +1,29 @@
+uuid: 832ba607-a267-4d59-b71b-c3a3ae1ae727
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.equipo_dev
+    - node.type.page
+  module:
+    - block
+    - node
+    - path
+    - system
+id: desarrollador_biko2
+label: 'desarrollador biko2'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'create article content'
+  - 'create equipo_dev content'
+  - 'create page content'
+  - 'edit own article content'
+  - 'edit own equipo_dev content'
+  - 'view all revisions'
+  - 'access content'
+  - 'view own unpublished content'
+  - 'administer url aliases'
+  - 'create url aliases'

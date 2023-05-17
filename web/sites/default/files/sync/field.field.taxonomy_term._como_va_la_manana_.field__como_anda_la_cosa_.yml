@@ -1,0 +1,37 @@
+uuid: 5d621f24-0300-42d1-8ca2-d0a1bebb81f2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field__como_anda_la_cosa_
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - taxonomy.vocabulary._como_va_la_manana_
+id: taxonomy_term._como_va_la_manana_.field__como_anda_la_cosa_
+field_name: field__como_anda_la_cosa_
+entity_type: taxonomy_term
+bundle: _como_va_la_manana_
+label: '¿como anda la cosa?'
+description: probando
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+      document: document
+      image: image
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

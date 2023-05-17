@@ -1,0 +1,20 @@
+uuid: 185b86f1-be63-4c8e-995a-566d39397803
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field__como_anda_la_cosa_
+field_name: field__como_anda_la_cosa_
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 81bd3138-c372-4982-a40d-c495b855733a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - bartik_child
+_core:
+  default_config_hash: pr3QYCTcRvWFwZ4-uxct2vWlDTF_liV-1RLiNFE5a-g
+id: bartik_child_local_tasks
+theme: bartik_child
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

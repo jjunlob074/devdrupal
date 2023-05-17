@@ -1,0 +1,25 @@
+uuid: c4846503-4453-4936-8000-bb5c3ed9ac49
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f5f61954-4e32-4f0a-9f9f-809758188c04'
+  module:
+    - block_content
+  theme:
+    - tara
+id: bloquepersonalizadoeditado_2
+theme: tara
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:f5f61954-4e32-4f0a-9f9f-809758188c04'
+settings:
+  id: 'block_content:f5f61954-4e32-4f0a-9f9f-809758188c04'
+  label: 'BLOQUE PERSONALIZADO EDITADO'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

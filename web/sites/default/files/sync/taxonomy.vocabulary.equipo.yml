@@ -1,0 +1,8 @@
+uuid: c703e2fc-3f08-49e5-b04f-de2377f1111d
+langcode: es
+status: true
+dependencies: {  }
+name: EQUIPO
+vid: equipo
+description: divis
+weight: 0

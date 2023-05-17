@@ -1,0 +1,25 @@
+uuid: e1573df0-c804-4b59-8111-ed2b3601f87b
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f5f61954-4e32-4f0a-9f9f-809758188c04'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: bloquepersonalizadoeditado
+theme: olivero
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:f5f61954-4e32-4f0a-9f9f-809758188c04'
+settings:
+  id: 'block_content:f5f61954-4e32-4f0a-9f9f-809758188c04'
+  label: 'BLOQUE PERSONALIZADO EDITADO'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

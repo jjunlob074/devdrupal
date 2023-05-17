@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function iestrafalgar_weather_theme() {
+  return [
+    'iestrafalgar_weather_block' => [
+      'variables' => [
+        'temperature' => NULL,
+        'windSpeed' => NULL,
+      ],
+    ],
+  ];
+}

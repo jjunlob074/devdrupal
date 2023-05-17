@@ -1,0 +1,21 @@
+uuid: a3aaffc9-e39d-4f98-a221-0b68c071bfc5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.paragraph_prueba
+  module:
+    - text
+id: paragraph.paragraph_prueba.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: paragraph_prueba
+label: text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

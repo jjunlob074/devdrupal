@@ -1,0 +1,25 @@
+uuid: 856c277b-6c8b-4cbf-8daf-89e900a01a81
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2c5e3e0e-2c9d-4211-aa45-8f24b5caed89'
+  module:
+    - block_content
+  theme:
+    - tara
+id: novatosenlaempresa
+theme: tara
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:2c5e3e0e-2c9d-4211-aa45-8f24b5caed89'
+settings:
+  id: 'block_content:2c5e3e0e-2c9d-4211-aa45-8f24b5caed89'
+  label: 'novatos en la empresa'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: c82a9ce6-09fb-4583-83f9-94817a782e50
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.listado_de_cuadro
+  module:
+    - text
+id: node.listado_de_cuadro.field_autor
+field_name: field_autor
+entity_type: node
+bundle: listado_de_cuadro
+label: AUTOR
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
