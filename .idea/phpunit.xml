@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/tests" />
         <option value="$PROJECT_DIR$/tests" />
         <option value="$PROJECT_DIR$/web/modules/custom/helloworld/tests" />
+        <option value="$PROJECT_DIR$/web/modules/custom/iestrafalgar_weather/tests" />
       </list>
     </option>
   </component>

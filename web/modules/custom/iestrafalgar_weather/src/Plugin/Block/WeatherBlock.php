@@ -54,12 +54,12 @@ class WeatherBlock extends BlockBase implements ContainerFactoryPluginInterface 
    */
   // IMPLEMENTAR LA ESTÁTICA,ESTA METIDA DE FORMA INYECTADA
   public function build() {
-    $weatherData = $this->openApiConnector->getWeather();
+    $weather= $this->openApiConnector->getWeather();
 
     return [
       '#theme' => 'iestrafalgar_weather_block',
-      '#temperature' => $weatherData['temperature'],
-      '#windSpeed' => $weatherData['windSpeed'],
+      '#temperature' => $weather->temperature,
+      '#windSpeed' => $weather->windSpeed,
       '#attached' => [
         'library' => [
           'iestrafalgar_weather/iestrafalgar_weather',
