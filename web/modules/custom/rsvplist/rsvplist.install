@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the rsvplist module.
+ */
+
+function rsvplist_schema() {
+
+  $schema['rsvplist'] = [
+    'description' => 'Stores email, timestamp, nid and uid for an RSVP.',
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier for the record.',
+        'type' => 'serial',
+        'size' => 'small',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'uid' => [
+        'description' => 'The {users}.uid that added this RSVP.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      // COMPLETAR VIERNES
+    ],
+  ];
+}

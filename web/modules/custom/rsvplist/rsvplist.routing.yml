@@ -1,0 +1,7 @@
+rsvplist.formdemo:
+  path: '/rsvplist'
+  defaults:
+    _form: '\Drupal\rsvplist\Form\RSVPForm'
+    _title: 'RSVP List'
+  requirements:
+    _permission: 'access content'
