@@ -30,7 +30,6 @@
       <sourceFolder url="file://$MODULE_DIR$/web/core/lib/Drupal/Core" isTestSource="false" packagePrefix="Drupal\Core\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/web/modules/custom/helloworld/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/web/modules/custom/iestrafalgar_weather/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
