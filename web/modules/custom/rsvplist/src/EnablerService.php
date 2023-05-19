@@ -9,6 +9,7 @@
 namespace Drupal\rsvplist;
 
 use Drupal\Core\Database\Connection;
+use Drupal\node\Entity\Node;
 use PHPUnit\Exception;
 
 class EnablerService {
