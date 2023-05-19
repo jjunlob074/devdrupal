@@ -23,7 +23,49 @@ function rsvplist_schema() {
         'not null' => TRUE,
         'default' => 0,
       ],
-      // COMPLETAR VIERNES
+      'nid' => [
+        'description' => 'The {node}.nid for this RSVP.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'mail' => [
+        'description' => 'User\'s email address.',
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => FALSE,
+        'default' => '',
+      ],
+      'created' => [
+        'description' => 'Timestamp for when RSVP was created.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+    ],
+    'primary key' => ['id'],
+    'indexes' => [
+      'node' => ['nid'],
+      'node_user' => ['nid', 'uid'],
     ],
   ];
+
+  // LA OTRA TABLA REQUERIDA EN EL MÓDULO
+
+  $schema['rsvplist_enabled'] = [
+    'description' => 'Tracks whether RSVP is enabled or not for a node.',
+    'fields' => [
+      'nid' => [
+        'description' => 'The {node}.nid that has RSVP enabled.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+    ],
+    'primary key' => ['nid'],
+  ];
+
+  return $schema;
 }
