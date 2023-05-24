@@ -32,7 +32,8 @@
         "drupal/quickedit": "^1.0",
         "drupal/tara": "^10.0",
         "drush/drush": "^11.5",
-        "symfony/event-dispatcher": "^6.2"
+        "symfony/event-dispatcher": "^6.2",
+        "ext-pdo": "*"
     },
      "require-dev": {
         "behat/mink": "^1.10",
