@@ -37,7 +37,7 @@ class EnablerService {
     }
     catch (\Exception $e) {
       \Drupal::messenger()->addError(
-        t('Unable to determinate RSVP settings at this time. Please try again')
+        t('disabled to determinate RSVP settings at this time. Please try again')
       );
       return NULL;
     }
