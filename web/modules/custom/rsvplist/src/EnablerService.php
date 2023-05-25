@@ -32,7 +32,7 @@ class EnablerService {
       $select->fields('re',['nid']);
       $select->condition('nid',$node->id());
       $results = $select->execute();
-
+      // Un comentario.
       return !(empty($results->fetchCol()));
     }
     catch (\Exception $e) {
