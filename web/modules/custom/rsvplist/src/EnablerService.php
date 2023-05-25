@@ -32,12 +32,12 @@ class EnablerService {
       $select->fields('re',['nid']);
       $select->condition('nid',$node->id());
       $results = $select->execute();
-
+      // Un comentario.
       return !(empty($results->fetchCol()));
     }
     catch (\Exception $e) {
       \Drupal::messenger()->addError(
-        t('Unable to determinate RSVP settings at this time. Please try again')
+        t('Cannot determine RSVP settings at this time. Please try again')
       );
       return NULL;
     }
