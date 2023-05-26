@@ -35,7 +35,7 @@ class OpenApiConnector implements ContainerInjectionInterface{
 
     return $weather;
   }
-
+// un comentario
   public static function create(ContainerInterface $container) {
     return new static ($container->get('http_client'));
   }
