@@ -52,7 +52,7 @@ class WeatherBlock extends BlockBase implements ContainerFactoryPluginInterface 
   /**
    * {@inheritdoc}
    */
-  // IMPLEMENTAR LA ESTÁTICA,ESTA METIDA DE FORMA INYECTADA
+  // IMPLEMENTAR LA ESTÁTICA,ESTA METIDA DE FORMA INYECTADA ff
   public function build() {
     $weather= $this->openApiConnector->getWeather();
 
