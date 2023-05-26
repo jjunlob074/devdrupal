@@ -21,7 +21,7 @@ class WeatherBlock extends BlockBase implements ContainerFactoryPluginInterface 
   protected $openApiConnector;
 
   /**
-   * Constructs a new WeatherBlock instance.
+   * Constructs a new WeatherBlock instances.
    *
    * @param array $configuration
    *   A configuration array containing information about the plugin instance.
